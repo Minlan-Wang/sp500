@@ -38,3 +38,14 @@ min    487
 75%    499  
 max    507
 ```
+
+### Usage
+- upgrade pip first
+pip3.6 install --upgrade pip
+- install jupyter
+pip install jupyter
+- convert ipynb file into python
+jupyter-nbconvert --to python xxx.ipynb
+- run with ipython
+ipython xxx.py
+- sp500.py need to contact with en.wikipedia.org to get current sp500 components, use proxychains4 if you have problem with this.
